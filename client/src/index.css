@@ -19,4 +19,5 @@ code {
 }
 img.homepage-banner {
   position: absolute;
+  max-height: 460px;
 }

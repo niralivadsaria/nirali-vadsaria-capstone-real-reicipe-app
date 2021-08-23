@@ -1,0 +1,18 @@
+.card {
+  img {
+    width: 100%;
+  }
+  .card-body {
+    background-color: black;
+    a {
+      color: white;
+    }
+  }
+  :hover {
+    opacity: 0.6;
+  }
+}
+.meal-link {
+  text-decoration: none !important;
+  color: black;
+}

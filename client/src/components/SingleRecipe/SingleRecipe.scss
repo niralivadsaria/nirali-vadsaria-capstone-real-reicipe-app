@@ -1,0 +1,79 @@
+.image_div {
+  background: #f9c745;
+  .image__card {
+    width: auto;
+    max-height: 500px;
+    display: flex;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .title {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    color: #bd2130 !important;
+  }
+  .category {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    color: #bd2130 !important;
+  }
+  .area {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    color: #bd2130 !important;
+  }
+}
+
+.tabs {
+  position: relative;
+  margin: 25px 0;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: #ddd;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin-left: -1px;
+  margin-top: -40px;
+}
+.tab:first-child label {
+  margin-left: 0;
+}
+.tab input[type="radio"] {
+  display: none;
+}
+.tab-content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  padding: 20px;
+  display: none;
+  p {
+    padding-bottom: 30px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 600px;
+  }
+}
+input[type="radio"]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+}
+input[type="radio"]:checked ~ label ~ .tab-content {
+  display: block;
+}

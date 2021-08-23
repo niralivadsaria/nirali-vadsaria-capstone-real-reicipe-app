@@ -1,0 +1,30 @@
+.search-recipes {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  top: -175px;
+
+  input,
+  button {
+    height: 45px;
+  }
+}
+
+.searchbar-div {
+  max-height: 400px;
+  overflow: hidden;
+
+  .searchbar-img {
+    width: 100%;
+  }
+}
+.ingredients-list {
+  display: inline-block;
+
+  .tags {
+    background: #ccc;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}

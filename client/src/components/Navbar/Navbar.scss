@@ -1,0 +1,30 @@
+.companyname {
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+  font-size: 45px;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: #bd2130 !important;
+  font-weight: bold;
+}
+
+#navbarNavAltMarkup {
+  margin-left: 35px;
+}
+
+.phonenumber,
+.email {
+  text-decoration: none !important;
+  font-size: 20px;
+  color: #bd2130 !important;
+  font-weight: bold;
+  margin-left: 10px;
+  & i {
+    font-size: smaller;
+    margin-right: 10px;
+  }
+  &:hover {
+    text-decoration: none !important;
+  }
+}
